@@ -1,6 +1,11 @@
+git
 termite
+rofi
 polybar
 libmpdclient
 wireless_tools
 jsoncpp
 zsh
+feh
+scrot
+i3lock
