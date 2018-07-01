@@ -1,0 +1,6 @@
+termite
+polybar
+libmpdclient
+wireless_tools
+jsoncpp
+zsh

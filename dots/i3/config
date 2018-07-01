@@ -229,10 +229,6 @@ client.background           #d2d2d2
 
 #::::::::::::::: Startup ::::::::::::::::::::::::::::::::::::::::::::::::::::::#
 exec --no-startup-id ~/.config/polybar/launch.sh
-exec_always feh --bg-scale ~/Pictures/wallpaper.jpg
+exec_always feh --bg-scale ~/.wallpaper.jpg
 exec --no-startup-id nm-applet
 exec --no-startup-id /usr/bin/xrdb -merge ~/.Xresources
-exec --no-startup-id i3-msg 'workspace 1; exec firefox'
-exec --no-startup-id i3-msg 'workspace 2; exec termite'
-exec --no-startup-id i3-msg 'workspace 6; exec termite'
-exec --no-startup-id i3-msg 'workspace 10; layout tabbed; exec telegram; exec zulip'

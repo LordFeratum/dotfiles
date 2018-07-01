@@ -41,7 +41,7 @@ amber7 = #FFA000
 amber8 = #FF8F00
 
 [bar/top]
-monitor = DP-1
+monitor = ${env:MONITOR}
 width = 100%
 height = 33
 radius = 0
